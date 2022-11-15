@@ -206,4 +206,24 @@ Blink
 + email: String {URL}</panel_attributes>
     <additional_attributes/>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>315</x>
+      <y>462</y>
+      <w>259</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>bg=green
+&lt;&lt;Entity&gt;&gt;
+TheoryTutorial
+--
++ title: String {NotBlank}
++ ticker: String {Pattern("^[A-Z]{3}-[0-9]{3}(:[A-Z]{1,10})?$")}
++ abstractMessage: String {NotBlank}
++ cost: Money {NotNull, Min(0)}
++ link: String {URL}
+</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
