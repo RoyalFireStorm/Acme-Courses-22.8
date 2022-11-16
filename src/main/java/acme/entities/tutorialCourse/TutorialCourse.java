@@ -1,16 +1,13 @@
-package acme.entities.theorytutorial;
+package acme.entities.tutorialCourse;
 
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
 import javax.validation.Valid;
-import javax.validation.constraints.Min;
-import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Pattern;
+import javax.validation.constraints.Positive;
 
-import org.hibernate.validator.constraints.URL;
-
-import acme.framework.datatypes.Money;
+import acme.entities.course.Course;
+import acme.entities.tutorial.Tutorial;
 import acme.framework.entities.AbstractEntity;
 import lombok.Getter;
 import lombok.Setter;
@@ -18,7 +15,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class TheoryTutorial extends AbstractEntity{
+public class TutorialCourse extends AbstractEntity{
 	
 	// Serialisation identifier -----------------------------------------------
 
@@ -27,26 +24,28 @@ public class TheoryTutorial extends AbstractEntity{
 		// Attributes -------------------------------------------------------------
 
 		
-		@NotBlank
-		protected String			title;
-		
-		@NotBlank
-		@Pattern(regexp="^[A-Z]{3}-[0-9]{3}(:[A-Z]{1,10})?$")
-		protected String			ticker;
-		
-		@NotBlank
-		protected String			abstractMessage;
+		@NotNull
+		@Positive
+		protected Double duration;
 		
 		@NotNull
-		protected Money				cost;
+		protected TimeUnit timeUnit;
 		
-		@URL
-		protected String			link;
+		@NotNull
+		@Valid
+		@ManyToOne(optional = false)
+		protected Tutorial tutorial;
+		
+		@NotNull
+		@Valid
+		@ManyToOne(optional = false)
+		protected Course course;
 		
 
 		// Derived attributes -----------------------------------------------------
 
 		// Relationships ----------------------------------------------------------
-
+		
+		// Functions --------------------------------------------------------------
 		
 }

@@ -1,0 +1,13 @@
+key,duration,timeUnit,key:tutorial,key:course
+tutorialCourse-01,1.5,WEEKS,tutorial-04,course-03
+tutorialCourse-02,1,DAYS,tutorial-05,course-04
+tutorialCourse-03,2,HOURS,tutorial-08,course-04
+tutorialCourse-04,90,MINUTES,tutorial-12,course-01
+tutorialCourse-05,5,HOURS,tutorial-03,course-02
+tutorialCourse-06,2,DAYS,tutorial-01,course-01
+tutorialCourse-07,1,YEARS,tutorial-10,course-03
+tutorialCourse-08,0.75,MONTHS,tutorial-06,course-01
+tutorialCourse-09,1,DAYS,tutorial-11,course-04
+tutorialCourse-10,30,HOURS,tutorial-09,course-02
+tutorialCourse-11,2,YEARS,tutorial-04,course-03
+tutorialCourse-12,120,MINUTES,tutorial-02,course-04
