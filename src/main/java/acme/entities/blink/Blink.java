@@ -22,6 +22,8 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Past;
 
+import org.hibernate.validator.constraints.Length;
+
 import acme.framework.entities.AbstractEntity;
 import lombok.Getter;
 import lombok.Setter;
@@ -43,12 +45,15 @@ public class Blink extends AbstractEntity {
 	protected Date				moment;
 
 	@NotBlank
+	@Length(min=1,max=76)
 	protected String			caption;
 	
 	@NotBlank
-	protected String			writer;
+	@Length(min=1,max=76)
+	protected String			author;
 
 	@NotBlank
+	@Length(min=1,max=256)
 	protected String			message;
 
 	@Email

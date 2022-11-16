@@ -1,4 +1,4 @@
-key,moment,caption,writer,message,email
+key,moment,caption,author,message,email
 blink-01,2022/11/13 19:39,I'm happy!, John Doe,Today is my birthday!,
 blink-02,2022/11/09 15:55,YES, Jane Doe,I'm the master of my room!,
 blink-03,2022/11/07 00:00,Listen!, Foo Bar,Just turning 50!,foobar@gmail.com
