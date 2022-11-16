@@ -4,24 +4,24 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>343</x>
+      <x>231</x>
       <y>119</y>
-      <w>91</w>
-      <h>98</h>
+      <w>133</w>
+      <h>91</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;90.0;110.0;90.0;110.0;120.0</additional_attributes>
+    <additional_attributes>170.0;10.0;170.0;90.0;10.0;90.0;10.0;110.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>273</x>
+      <x>343</x>
       <y>119</y>
-      <w>91</w>
-      <h>98</h>
+      <w>98</w>
+      <h>91</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>110.0;10.0;110.0;90.0;10.0;90.0;10.0;120.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0;120.0;90.0;120.0;110.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -98,8 +98,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>357</x>
-      <y>203</y>
+      <x>175</x>
+      <y>196</y>
       <w>140</w>
       <h>70</h>
     </coordinates>
@@ -115,8 +115,8 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>161</x>
-      <y>203</y>
+      <x>350</x>
+      <y>196</y>
       <w>147</w>
       <h>70</h>
     </coordinates>
@@ -494,22 +494,22 @@ bg=green</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>224</x>
-      <y>266</y>
+      <x>413</x>
+      <y>259</y>
       <w>98</w>
-      <h>196</h>
+      <h>203</h>
     </coordinates>
     <panel_attributes>lt=x-&gt;
 m1=0..*
 m2=1
 Is requested by ^</panel_attributes>
-    <additional_attributes>10.0;260.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;270.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>420</x>
-      <y>266</y>
+      <x>238</x>
+      <y>259</y>
       <w>98</w>
       <h>203</h>
     </coordinates>
@@ -532,5 +532,37 @@ m1=0..*
 m2=1
 Is about &gt;</panel_attributes>
     <additional_attributes>10.0;20.0;440.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>91</x>
+      <y>672</y>
+      <w>434</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+FollowUp
+--
++ sequenceNumber: String {NotBlank,Unique,Pattern("^[A-Z]{3}-[0-9]{3}(:[A-Z]{1,10})?:[0-9]{4}$")}
++ moment: Date {NotNull, Past}
++ message: String {NotBlank, Lenght(1,256)}
++ link: String {URL}
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>301</x>
+      <y>553</y>
+      <w>63</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>lt=x-&gt;
+m1=0..*
+m2=1
+Is about ^</panel_attributes>
+    <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>

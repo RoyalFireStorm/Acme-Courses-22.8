@@ -1,0 +1,9 @@
+key,sequenceNumber,moment,message,link,key:helpRequest
+followUp-01,ABC-123:0001,2021/01/01 12:12,I need to stay in a hotel,,helpRequest-01
+followUp-02,CHA-999:DANIEL:0001,2022/01/05 10:00,Tengo carbon,,helpRequest-03
+followUp-03,KLJ-012:0001,2022/06/06 06:30,Solo puedo comer productos frescos,,helpRequest-04
+followUp-04,KLJ-012:0002,2022/06/08 06:30,"Si, los puedes ver en este link",https://www.carrefour.es/supermercado/productos-frescos/cat20002/c,helpRequest-04
+followUp-05,KAS-201:0001,2022/02/03 16:00,The match is at 12:00!,,helpRequest-05
+followUp-06,KAS-201:0002,2022/02/04 11:00,Where is everybody?,,helpRequest-05
+followUp-07,KAS-201:0003,2022/02/04 11:30,We are arriving!,,helpRequest-05
+followUp-08,ASD-120:A:0001,2022/02/04 11:00,Will you come to the match?,,helpRequest-06
