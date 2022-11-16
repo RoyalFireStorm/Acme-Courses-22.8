@@ -29,9 +29,9 @@ public class LearnerDashboard implements Serializable {
 	protected static final long	serialVersionUID	= 1L;
 
 	// Attributes -------------------------------------------------------------
-	Integer totalNumberOfProposedFineDishes;
-	Integer totalNumberOfAcceptedFineDishes;
-	Integer totalNumberOfDeniedFineDishes;
+	Integer totalNumberOfProposedHelpRequests;
+	Integer totalNumberOfAcceptedHelpRequests;
+	Integer totalNumberOfDeniedHelpRequests;
 	Map<Pair<String,String>, Double> averageBudgetByCurrencyAndStatus;
 	Map<Pair<String,String>, Double> deviationBudgetByCurrencyAndStatus;
 	Map<Pair<String,String>, Double> minBudgetByCurrencyAndStatus;
