@@ -1,0 +1,8 @@
+key,status,ticker,statement,budget,startDate,finishDate,link,key:teacher,key:learner,key:tutorial
+helpRequest-01,PROPOSED,ABC-123,There is a hotel near?,EUR 120.00,2023/03/25 16:30,2023/03/30 16:30,,teacher-01,learner-01,tutorial-03
+helpRequest-02,PROPOSED,CHS-001:EASY,I have a question about a line,USD 20.99,2022/12/30 10:30,2023/01/20 00:00,https://www.chess.com/es/blog/Killer_of_Strategies/partidas-modelo-de-la-apertura-inglesa,teacher-01,learner-01,tutorial-07
+helpRequest-03,PROPOSED,CHA-999:DANIEL,¿Necesitamos llevar la barbacoa?,GBP 9.00,2023/01/01 00:00,2023/01/21 00:00,,teacher-02,learner-02,tutorial-02
+helpRequest-04,ACCEPTED,KLJ-012,¿Los productos son frescos?,EUR 51.50,2023/02/02 13:00,2023/03/03 15:59,,teacher-02,learner-02,tutorial-11
+helpRequest-05,ACCEPTED,KAS-201,When is gonna be the match?,USD 5.01,2023/01/25 10:15,2023/05/01 13:35,https://www.youtube.com/watch?v=yclc3x16FfE,teacher-01,learner-01,tutorial-03
+helpRequest-06,DENIED,ASD-120:A,Do you know chess?,GBP 0.01,2025/01/01 00:00,2025/12/01 23:00,,teacher-02,learner-01,tutorial-08
+helpRequest-07,DENIED,LAS-876:LIBERTYCIT,Que hambre tengo,GBP 120.00,2023/05/05 05:00,2026/03/01 23:00,,teacher-01,learner-02,tutorial-01

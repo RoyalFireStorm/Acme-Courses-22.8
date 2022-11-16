@@ -1,0 +1,5 @@
+key,enabled,identity,password,username
+user-account-learner-01,true,"UserIdentity{name: 'Jim', surname: 'Smith', email: 'learner01@acme.com'}",learner01,learner01
+user-account-learner-02,true,"UserIdentity{name: 'Sara', surname: 'Lona', email: 'learner02@acme.com'}",learner02,learner02
+user-account-teacher-01,true,"UserIdentity{name: 'Marine', surname: 'LeMont', email: 'teacher01@acme.com'}",teacher01,teacher01
+user-account-teacher-02,true,"UserIdentity{name: 'Saul', surname: 'Oconner', email: 'teacher02@acme.com'}",teacher02,teacher02
