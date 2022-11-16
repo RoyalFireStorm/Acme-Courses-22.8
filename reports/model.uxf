@@ -216,13 +216,15 @@ Blink
     </coordinates>
     <panel_attributes>bg=green
 &lt;&lt;Entity&gt;&gt;
-TheoryTutorial
+Tutorial
 --
 + title: String {NotBlank}
-+ ticker: String {Pattern("^[A-Z]{3}-[0-9]{3}(:[A-Z]{1,10})?$")}
++ ticker: String {NotBlank,Unique,Pattern("^[A-Z]{3}-[0-9]{3}(:[A-Z]{1,10})?$")}
 + abstractMessage: String {NotBlank}
-+ cost: Money {NotNull, Min(0)}
++ cost: Money {NotNull}
 + link: String {URL}
++ type: TutorialType {NotNull}
+
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -244,5 +246,128 @@ Post
 + informational: boolean {NotNull}
 + link: String {URL}</panel_attributes>
     <additional_attributes/>
+  </element>
+      <x>413</x>
+      <y>329</y>
+      <w>336</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Course
+--
++ caption: String {NotBlank, Lenght(1,76)}
++ ticker: String {NotBlank,Unique,Pattern("^[A-Z]{3}-[0-9]{3}(:[A-Z]{1,10})?$")}
++ abstractMessage: String {NotBlank, Lenght(1,256)}
++ link: String {URL}
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>826</x>
+      <y>602</y>
+      <w>112</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>The retail price must be
+not nought and
+positive
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>497</x>
+      <y>476</y>
+      <w>161</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+TutorialCourse
+--
++ duration: int [min(1)]
++ timeUnit: TimeUnit {NotNull} 
+
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>567</x>
+      <y>546</y>
+      <w>77</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=x-&gt;
+m1=0..*
+m2=1
+Related to v</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>567</x>
+      <y>406</y>
+      <w>70</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=x-&gt;
+m1=0..*
+m2=1
+Is part of ^</panel_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>728</x>
+      <y>469</y>
+      <w>77</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Enum&gt;&gt;
+TutorialType
+--
++ LAB
++ THEORY
+
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>343</x>
+      <y>469</y>
+      <w>77</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Enum&gt;&gt;
+TimeUnit
+--
++ MINUTES
++ HOURS
++ DAYS
++ WEEKS
++ MONTHS
++ YEARS
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>777</x>
+      <y>623</y>
+      <w>63</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>lt=..
+</panel_attributes>
+    <additional_attributes>70.0;10.0;10.0;50.0</additional_attributes>
   </element>
 </diagram>
