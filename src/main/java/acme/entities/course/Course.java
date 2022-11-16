@@ -5,6 +5,7 @@ import javax.persistence.Entity;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
 
+import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
 
 import acme.framework.entities.AbstractEntity;
@@ -24,6 +25,7 @@ public class Course extends AbstractEntity{
 
 		
 		@NotBlank
+		@Length(min=1,max=76)
 		protected String			caption;
 		
 		@NotBlank
@@ -32,6 +34,7 @@ public class Course extends AbstractEntity{
 		protected String			ticker;
 		
 		@NotBlank
+		@Length(min=1,max=256)
 		protected String			abstractMessage;
 		
 		
