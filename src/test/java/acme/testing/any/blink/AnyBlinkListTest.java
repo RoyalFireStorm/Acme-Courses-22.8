@@ -28,7 +28,7 @@ public class AnyBlinkListTest extends TestHarness {
 	@ParameterizedTest
 	@CsvFileSource(resources="/any/blink/listpositive.csv", encoding="utf-8", numLinesToSkip = 1)
 	@Order(10)
-	public void AnyPeepListPositiveTest (final int recordIndex, final String moment, final String caption, final String author, final String message, final String email) {
+	public void AnyBlinkListPositiveTest (final int recordIndex, final String moment, final String caption, final String author, final String message, final String email) {
 		super.navigateHome();
 		super.clickOnMenu("Anonymous","List Blinks");		
 		super.checkListingExists();
@@ -41,9 +41,8 @@ public class AnyBlinkListTest extends TestHarness {
 		super.checkColumnHasValue(recordIndex, 3, message);
 		super.checkColumnHasValue(recordIndex, 4, email);
 		
-		
-		
 	}
+	
 	
 	// Ancillary methods ------------------------------------------------------ 
 	
