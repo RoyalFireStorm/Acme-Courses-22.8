@@ -1,5 +1,7 @@
 key,key:user-account
 authenticated-teacher-01,user-account-teacher-01
 authenticated-teacher-02,user-account-teacher-02
+authenticated-teacher-03,user-account-teacher-03
 authenticated-learner-01,user-account-learner-01
 authenticated-learner-02,user-account-learner-02
+authenticated-learner-03,user-account-learner-03

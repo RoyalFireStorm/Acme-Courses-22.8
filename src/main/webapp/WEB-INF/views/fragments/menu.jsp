@@ -18,6 +18,7 @@
 
 <acme:menu-bar code="master.menu.home">
 	<acme:menu-left>
+		<acme:menu-option code="master.menu.any.user-account.list" action="/any/user-account/list"/>
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="http://www.google.com/"/>
 			<acme:menu-suboption code="master.menu.anonymous.blink.list" action="/any/blink/list"/>
