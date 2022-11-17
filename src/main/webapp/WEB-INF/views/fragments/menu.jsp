@@ -19,7 +19,8 @@
 <acme:menu-bar code="master.menu.home">
 	<acme:menu-left>
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
-			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="http://www.pccomponentes.com/"/>
+			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="http://www.google.com/"/>
+			<acme:menu-suboption code="master.menu.anonymous.blink.list" action="/any/blink/list"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
