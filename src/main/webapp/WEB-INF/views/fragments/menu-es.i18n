@@ -19,6 +19,7 @@ master.menu.sign-out = Salir
 
 master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-link = 49030430L: Sánchez González, Álvaro
+master.menu.anonymous.blink.list = Listar Guiños
 
 # master.menu.administrator ###################################################
 
