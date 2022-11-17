@@ -17,6 +17,9 @@ master.menu.sign-out = Sign out
 
 # master.menu.any #######################################################
 master.menu.any.user-account.list = User accounts
+master.menu.any.tutorial=Tutorials
+master.menu.any.lab-tutorial=Lab Tutorials
+master.menu.any.theory-tutorial=Theory Tutorials
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anonymous
