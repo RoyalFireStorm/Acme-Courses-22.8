@@ -9,4 +9,5 @@
 	<acme:list-column code="any.tutorial.label.abstractMessage" path="abstractMessage" width="20%"/>
 	<acme:list-column code="any.tutorial.label.cost" path="cost" width="20%"/>
 	<acme:list-column code="any.tutorial.label.link" path="link" width="20%"/>
+	<acme:list-column code="any.tutorial.label.type" path="type" width="20%"/>
 </acme:list>

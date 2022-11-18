@@ -29,7 +29,7 @@ public class AnyLabTutorialListService implements AbstractListService<Any, Tutor
 		assert entity != null;
 		assert model != null;
 		
-		request.unbind(entity, model, "title","ticker", "abstractMessage","cost", "link");
+		request.unbind(entity, model, "title","ticker", "abstractMessage","cost", "link", "type");
 	}
 
 	@Override
