@@ -6,16 +6,17 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import acme.entities.tutorial.Tutorial;
+import acme.features.any.courses.AnyCourseRepository;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Request;
 import acme.framework.roles.Any;
 import acme.framework.services.AbstractListService;
 
 @Service
-public class AnyTheoryTutorialListService implements AbstractListService<Any, Tutorial>{
+public class AnyTutorialListByCourseService implements AbstractListService<Any, Tutorial>{
 
 	@Autowired
-	AnyTutorialRepository repository;
+	AnyCourseRepository repository;
 	
 	@Override
 	public boolean authorise(final Request<Tutorial> request) {
@@ -29,7 +30,7 @@ public class AnyTheoryTutorialListService implements AbstractListService<Any, Tu
 		assert entity != null;
 		assert model != null;
 		
-		request.unbind(entity, model,"title","ticker","abstractMessage","cost", "link","type");
+		request.unbind(entity, model,"title","ticker","abstractMessage","cost", "link", "type");
 	}
 
 	@Override
@@ -38,7 +39,8 @@ public class AnyTheoryTutorialListService implements AbstractListService<Any, Tu
 		
 		Collection<Tutorial> result;
 		
-		result= this.repository.findTheoryTutorials();
+		final int id = request.getModel().getInteger("id");
+		result= this.repository.findTutorialsInCourse(id);
 				
 		return result;
 	}

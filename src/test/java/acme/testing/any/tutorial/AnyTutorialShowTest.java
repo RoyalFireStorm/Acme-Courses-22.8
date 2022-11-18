@@ -30,7 +30,7 @@ public class AnyTutorialShowTest extends TestHarness {
 	@Order(10)
 	public void AnyLabTutorialShowPositiveTest (final int recordIndex, final String title, final String ticker, final String abstractMessage, final String cost, final String link, final String type) {
 		super.navigateHome();
-		super.clickOnMenu("Tutorials","Lab Tutorials");		
+		super.clickOnMenu("Our Products","Lab Tutorials");		
 		super.checkListingExists();
 		super.sortListing(0, "asc");
 		
@@ -54,7 +54,7 @@ public class AnyTutorialShowTest extends TestHarness {
 	@Order(10)
 	public void AnyTheoryTutorialShowPositiveTest (final int recordIndex, final String title, final String ticker, final String abstractMessage, final String cost, final String link, final String type) {
 		super.navigateHome();
-		super.clickOnMenu("Tutorials","Theory Tutorials");		
+		super.clickOnMenu("Our Products","Theory Tutorials");		
 		super.checkListingExists();
 		super.sortListing(0, "asc");
 		
