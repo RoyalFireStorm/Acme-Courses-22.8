@@ -28,9 +28,9 @@ public class AnyTutorialListTest extends TestHarness {
 	@ParameterizedTest
 	@CsvFileSource(resources="/any/tutorial/lablistpositive.csv", encoding="utf-8", numLinesToSkip = 1)
 	@Order(10)
-	public void AnyLabTutorialListPositiveTest (final int recordIndex, final String title, final String ticker, final String abstractMessage, final String cost, final String link) {
+	public void AnyLabTutorialListPositiveTest (final int recordIndex, final String title, final String ticker, final String abstractMessage, final String cost, final String link, final String type) {
 		super.navigateHome();
-		super.clickOnMenu("Tutorials","Lab Tutorials");		
+		super.clickOnMenu("Our Products","Lab Tutorials");		
 		super.checkListingExists();
 		super.sortListing(0, "asc");
 		
@@ -40,6 +40,7 @@ public class AnyTutorialListTest extends TestHarness {
 		super.checkColumnHasValue(recordIndex, 2, abstractMessage);
 		super.checkColumnHasValue(recordIndex, 3, cost);
 		super.checkColumnHasValue(recordIndex, 4, link);
+		super.checkColumnHasValue(recordIndex, 5, type);
 		
 
 	}
@@ -47,9 +48,9 @@ public class AnyTutorialListTest extends TestHarness {
 	@ParameterizedTest
 	@CsvFileSource(resources="/any/tutorial/theorylistpositive.csv", encoding="utf-8", numLinesToSkip = 1)
 	@Order(10)
-	public void AnyTheoryTutorialListPositiveTest (final int recordIndex, final String title, final String ticker, final String abstractMessage, final String cost, final String link) {
+	public void AnyTheoryTutorialListPositiveTest (final int recordIndex, final String title, final String ticker, final String abstractMessage, final String cost, final String link, final String type) {
 		super.navigateHome();
-		super.clickOnMenu("Tutorials","Theory Tutorials");		
+		super.clickOnMenu("Our Products","Theory Tutorials");		
 		super.checkListingExists();
 		super.sortListing(0, "asc");
 		
@@ -59,6 +60,7 @@ public class AnyTutorialListTest extends TestHarness {
 		super.checkColumnHasValue(recordIndex, 2, abstractMessage);
 		super.checkColumnHasValue(recordIndex, 3, cost);
 		super.checkColumnHasValue(recordIndex, 4, link);
+		super.checkColumnHasValue(recordIndex, 5, type);
 		
 	}
 	

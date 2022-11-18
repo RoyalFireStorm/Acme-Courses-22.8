@@ -23,9 +23,10 @@
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="http://www.google.com/"/>
 			<acme:menu-suboption code="master.menu.anonymous.blink.list" action="/any/blink/list"/>
 		</acme:menu-option>
-		<acme:menu-option code="master.menu.any.tutorial">
+		<acme:menu-option code="master.menu.any.items">
 			<acme:menu-suboption code="master.menu.any.lab-tutorial" action="/any/tutorial/list-lab"/>
 			<acme:menu-suboption code="master.menu.any.theory-tutorial" action="/any/tutorial/list-theory"/>
+			<acme:menu-suboption code="master.menu.any.course" action="/any/course/list-all"/>
 		</acme:menu-option>
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>
@@ -35,6 +36,8 @@
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.shut-down" action="/administrator/shut-down"/>
 		</acme:menu-option>
+		
+		<acme:menu-option code="master.menu.authenticated.post" action="/authenticated/post/list" access="isAuthenticated()"/>
 
 		<acme:menu-option code="master.menu.teacher" access="hasRole('Teacher')">
 			<acme:menu-suboption code="master.menu.teacher.favourite-link" action="http://www.example.com/"/>
