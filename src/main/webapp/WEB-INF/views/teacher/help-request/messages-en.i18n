@@ -1,0 +1,17 @@
+# i18n_en.messages
+#
+# Copyright (C) 2012-2021 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for teacher particular
+# purposes.  The copyright owner does not offer teacher warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+teacher.help-request.label.status =Status
+teacher.help-request.label.ticker=Ticker
+teacher.help-request.label.statement=Statement
+teacher.help-request.label.budget=Budget
+teacher.help-request.label.link=Link
+teacher.help-request.label.startDate=Start Date
+teacher.help-request.label.finishDate=Finish Date

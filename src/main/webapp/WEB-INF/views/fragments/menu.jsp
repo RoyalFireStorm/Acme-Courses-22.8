@@ -43,10 +43,11 @@
 			<acme:menu-suboption code="master.menu.teacher.theory-tutorials" action="/teacher/tutorial/list-theory"/>
 			<acme:menu-suboption code="master.menu.teacher.lab-tutorials" action="/teacher/tutorial/list-lab"/>
 			<acme:menu-suboption code="master.menu.teacher.course" action="/teacher/course/list-all"/>
+			<acme:menu-suboption code="master.menu.teacher.helpRequest" action="/teacher/help-request/list"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.learner" access="hasRole('Learner')">
-			<acme:menu-suboption code="master.menu.learner.favourite-link" action="http://www.example.com/"/>
+			<acme:menu-suboption code="master.menu.learner.helpRequest" action="/learner/help-request/list"/>
 		</acme:menu-option>
 	</acme:menu-left>
 

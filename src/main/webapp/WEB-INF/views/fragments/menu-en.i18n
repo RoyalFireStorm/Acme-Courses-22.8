@@ -46,10 +46,12 @@ master.menu.teacher = Teacher
 master.menu.teacher.lab-tutorials=My Lab Tutorials
 master.menu.teacher.theory-tutorials=My Theory Tutorials
 master.menu.teacher.course=My Courses
+master.menu.teacher.helpRequest=Help Requests
 
 # master.menu.learner ##########################################################
 
 master.menu.learner = Learner
+master.menu.learner.helpRequest=My Help Requests
 
 
 # master.menu.user-account ####################################################
