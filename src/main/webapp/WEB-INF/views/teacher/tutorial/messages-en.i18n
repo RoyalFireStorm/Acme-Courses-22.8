@@ -8,9 +8,9 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-any.tutorial.label.title =Title
-any.tutorial.label.ticker=Ticker
-any.tutorial.label.cost =Cost
-any.tutorial.label.abstractMessage=Message
-any.tutorial.label.link=Link
-any.tutorial.label.type=Type
+teacher.tutorial.label.title =Title
+teacher.tutorial.label.ticker=Ticker
+teacher.tutorial.label.cost =Cost
+teacher.tutorial.label.abstractMessage=Message
+teacher.tutorial.label.link=Link
+teacher.tutorial.label.type=Type

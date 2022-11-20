@@ -44,8 +44,9 @@ master.menu.administrator.shut-down = Parar el sistema
 
 master.menu.teacher = Profesor
 master.menu.teacher.favourite-link = Enlace favorito
-master.menu.teacher.lab-tutorial= Mis Tutoriales de Laboratorio
-master.menu.teacher.theory-tutorial=Mis Tutoriales Teóricos
+master.menu.teacher.lab-tutorials= Mis Tutoriales de Laboratorio
+master.menu.teacher.theory-tutorials=Mis Tutoriales Teóricos
+master.menu.teacher.course=Mis Cursos
 
 # master.menu.learner ##########################################################
 

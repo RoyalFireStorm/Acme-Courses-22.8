@@ -45,6 +45,7 @@ master.menu.administrator.shut-down = Shut down
 master.menu.teacher = Teacher
 master.menu.teacher.lab-tutorials=My Lab Tutorials
 master.menu.teacher.theory-tutorials=My Theory Tutorials
+master.menu.teacher.course=My Courses
 
 # master.menu.learner ##########################################################
 
