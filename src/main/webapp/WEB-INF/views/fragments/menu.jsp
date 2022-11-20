@@ -42,6 +42,7 @@
 		<acme:menu-option code="master.menu.teacher" access="hasRole('Teacher')">
 			<acme:menu-suboption code="master.menu.teacher.theory-tutorials" action="/teacher/tutorial/list-theory"/>
 			<acme:menu-suboption code="master.menu.teacher.lab-tutorials" action="/teacher/tutorial/list-lab"/>
+			<acme:menu-suboption code="master.menu.teacher.course" action="/teacher/course/list-all"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.learner" access="hasRole('Learner')">

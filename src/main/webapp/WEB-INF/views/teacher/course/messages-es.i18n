@@ -4,13 +4,14 @@
 #
 # In keeping with the traditional purpose of furthering education and research, it is
 # the policy of the copyright owner to permit non-commercial use and redistribution of
-# this software. It has been tested carefully, but it is not guaranteed for any particular
+# this software. It has been tested carefully, but it is not guaranteed for teacher particular
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-teacher.tutorial.label.title =Título
-teacher.tutorial.label.ticker=Código
-teacher.tutorial.label.cost =Coste
-teacher.tutorial.label.abstractMessage=Mensaje
-teacher.tutorial.label.link=Enlace
-teacher.tutorial.label.type=Tipo
+teacher.course.label.caption =Título
+teacher.course.label.ticker=Código
+teacher.course.label.cost =Coste
+teacher.course.label.abstractMessage=Mensaje
+teacher.course.label.link=Enlace
+teacher.course.label.type=Tipo
+teacher.course.label.tutorials=Tutoriales en el Curso
