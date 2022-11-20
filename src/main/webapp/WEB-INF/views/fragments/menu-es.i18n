@@ -27,6 +27,10 @@ master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-link = 49030430L: Sánchez González, Álvaro
 master.menu.anonymous.blink.list = Listar Guiños
 
+# master.menu.authenticated #######################################################
+
+master.menu.authenticated.post=Publicaciones
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrador
