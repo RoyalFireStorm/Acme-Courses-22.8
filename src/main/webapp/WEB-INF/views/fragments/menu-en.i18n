@@ -27,6 +27,9 @@ master.menu.anonymous = Anonymous
 master.menu.anonymous.favourite-link = 49030430L: Sánchez González, Álvaro
 master.menu.anonymous.blink.list = List Blinks
 
+# master.menu.authenticated #######################################################
+
+master.menu.authenticated.post=Posts
 
 # master.menu.administrator ###################################################
 
@@ -40,12 +43,13 @@ master.menu.administrator.shut-down = Shut down
 # master.menu.teacher ########################################################
 
 master.menu.teacher = Teacher
-master.menu.teacher.favourite-link = Favourite link
+master.menu.teacher.lab-tutorials=My Lab Tutorials
+master.menu.teacher.theory-tutorials=My Theory Tutorials
 
 # master.menu.learner ##########################################################
 
 master.menu.learner = Learner
-master.menu.learner.favourite-link = Favourite link
+
 
 # master.menu.user-account ####################################################
 
