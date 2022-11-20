@@ -1,13 +1,13 @@
-key,title,ticker,abstractMessage,cost,link,type
-tutorial-01,Apertura Inglesa En Vivo,ING-001:BLANCAS,Clase presencial clasica,GBP 20.00,,LAB
-tutorial-02,Experto en Barbacoa,BBQ-101,¡Sé el rey de las fiesta!,GBP 25.50,https://www.modregohogar.com/blog/tipos-de-barbacoa,LAB
-tutorial-03,Analísis de Carlsen-Nakamura,MMM-659:RAPID,Analisis de la partida con Rey Dama,EUR 5.00,,LAB
-tutorial-04,Cocina Gourmet,CAV-111:EXPERTO,Clase avanzada de la mano de Jordi Cruz,EUR 99.99,,LAB
-tutorial-05,Pasteleria: Donuts,PAS-171:PAZ,Clase de Paz de las 7:30,USD 17.99,,LAB
-tutorial-06,Puzzle Rush,RSH-055,Puzzle Rush!,USD 4.70,https://www.chess.com/es/puzzles/rush,LAB
-tutorial-07,Apertura Inglesa,ING-002:BLANCAS,Apertura clasica,GBP 15.00,,THEORY
-tutorial-08,Macarrones con tomate,TMT-101,Que no se te queme el tomate,GBP 5.50,https://www.recetasdeescandalo.com/macarrones-con-tomate-casero-receta-muy-sabrosa-y-sencilla/,THEORY
-tutorial-09,Mate con Caballo y Alfil,MCA-659,"Cuidado, clase avanzada",EUR 25.00,,THEORY
-tutorial-10,Como aprovechar el caviar,CAV-112:EXPERTO,"Mejora tus platos con este plato gourmet",EUR 123.99,,THEORY
-tutorial-11,Atun encebollado,ATU-111,"Rico plato que no pasas de moda",USD 17.99,,THEORY
-tutorial-12,Fried liver attack,FLA-055,Easy attack to win the rook!,USD 5.00,https://www.youtube.com/watch?v=0ITi9Jc0J-o,THEORY
+key,title,ticker,abstractMessage,cost,link,type,key:teacher
+tutorial-01,Apertura Inglesa En Vivo,ING-001:BLANCAS,Clase presencial clasica,GBP 20.00,,LAB,teacher-01
+tutorial-02,Experto en Barbacoa,BBQ-101,¡Sé el rey de las fiesta!,GBP 25.50,https://www.modregohogar.com/blog/tipos-de-barbacoa,LAB,teacher-02
+tutorial-03,Analísis de Carlsen-Nakamura,MMM-659:RAPID,Analisis de la partida con Rey Dama,EUR 5.00,,LAB,teacher-01
+tutorial-04,Cocina Gourmet,CAV-111:EXPERTO,Clase avanzada de la mano de Jordi Cruz,EUR 99.99,,LAB,teacher-02
+tutorial-05,Pasteleria: Donuts,PAS-171:PAZ,Clase de Paz de las 7:30,USD 17.99,,LAB,teacher-02
+tutorial-06,Puzzle Rush,RSH-055,Puzzle Rush!,USD 4.70,https://www.chess.com/es/puzzles/rush,LAB,teacher-01
+tutorial-07,Apertura Inglesa,ING-002:BLANCAS,Apertura clasica,GBP 15.00,,THEORY,teacher-01
+tutorial-08,Macarrones con tomate,TMT-101,Que no se te queme el tomate,GBP 5.50,https://www.recetasdeescandalo.com/macarrones-con-tomate-casero-receta-muy-sabrosa-y-sencilla/,THEORY,teacher-02
+tutorial-09,Mate con Caballo y Alfil,MCA-659,"Cuidado, clase avanzada",EUR 25.00,,THEORY,teacher-01
+tutorial-10,Como aprovechar el caviar,CAV-112:EXPERTO,Mejora tus platos con este plato gourmet,EUR 123.99,,THEORY,teacher-02
+tutorial-11,Atun encebollado,ATU-111,Rico plato que no pasas de moda,USD 17.99,,THEORY,teacher-02
+tutorial-12,Fried liver attack,FLA-055,Easy attack to win the rook!,USD 5.00,https://www.youtube.com/watch?v=0ITi9Jc0J-o,THEORY,teacher-01
