@@ -1,0 +1,37 @@
+# messages-es.i18n
+#
+# Copyright (C) 2012-2022 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.administrator-dashboard.form.label.Title =Panel de estadística
+administrator.administrator-dashboard.form.label.totalNumberTheoryTutorials =Numero de Tutoriales Teóricos
+administrator.administrator-dashboard.form.label.totalNumberLabTutorials=Numero de Tutoriales de Laboratorio
+administrator.administrator-dashboard.form.label.totalNumberOfProposedHelpRequests=Numero de Peticiones de ayuda Propuestas
+administrator.administrator-dashboard.form.label.totalNumberOfAcceptedHelpRequests=Numero de Peticiones de ayuda Aceptadas
+administrator.administrator-dashboard.form.label.totalNumberOfDeniedHelpRequests=Numero de Peticiones de ayuda Denegadas
+
+administrator.administrator-dashboard.form.label.TheoryTutorialTitle=Estadísticas Tutoriales Teóricos 
+administrator.administrator-dashboard.form.label.averageTheoryTutorial=Coste Medio por 
+administrator.administrator-dashboard.form.label.deviationTheoryTutorial=Desviación típica del coste por 
+administrator.administrator-dashboard.form.label.minTheoryTutorial=Mínimo coste por 
+administrator.administrator-dashboard.form.label.maxTheoryTutorial=Máximo coste por 
+
+administrator.administrator-dashboard.form.label.LabTutorialTitle=Estadísticas Tutoriales de Laboratorio 
+administrator.administrator-dashboard.form.label.averageLabTutorial=Coste Medio por 
+administrator.administrator-dashboard.form.label.deviationLabTutorial=Desviación típica del coste por 
+administrator.administrator-dashboard.form.label.minLabTutorial=Mínimo coste por 
+administrator.administrator-dashboard.form.label.maxLabTutorial=Máximo coste por 
+
+administrator.administrator-dashboard.form.label.HelpRequestTitle=Estadísticas Presupuestos de Peticiones de Ayuda 
+administrator.administrator-dashboard.form.label.averageHelpRequest=Presupuesto medio por estado 
+administrator.administrator-dashboard.form.label.deviationHelpRequest=Desviación típica de presupuesto por estado 
+administrator.administrator-dashboard.form.label.minHelpRequest=Presupuesto mínimo por estado 
+administrator.administrator-dashboard.form.label.maxHelpRequest=Presupuesto máximo por estado 
+
+administrator.administrator-dashboard.form.label.noMetric=No hay métricas sobre esta estadística.
+administrator.administrator-dashboard.form.label.colon=:

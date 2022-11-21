@@ -18,25 +18,38 @@
 
 <acme:menu-bar code="master.menu.home">
 	<acme:menu-left>
+		<acme:menu-option code="master.menu.any.user-account.list" action="/any/user-account/list"/>
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
-			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="http://www.pccomponentes.com/"/>
+			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="http://www.google.com/"/>
+			<acme:menu-suboption code="master.menu.anonymous.blink.list" action="/any/blink/list"/>
 		</acme:menu-option>
-
+		<acme:menu-option code="master.menu.any.items">
+			<acme:menu-suboption code="master.menu.any.lab-tutorial" action="/any/tutorial/list-lab"/>
+			<acme:menu-suboption code="master.menu.any.theory-tutorial" action="/any/tutorial/list-theory"/>
+			<acme:menu-suboption code="master.menu.any.course" action="/any/course/list-all"/>
+		</acme:menu-option>
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>
+			<acme:menu-suboption code="master.menu.administrator.dashboard" action="/administrator/administrator-dashboard/show"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.populate-initial" action="/administrator/populate-initial"/>
 			<acme:menu-suboption code="master.menu.administrator.populate-sample" action="/administrator/populate-sample"/>			
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.shut-down" action="/administrator/shut-down"/>
 		</acme:menu-option>
+		
+		<acme:menu-option code="master.menu.authenticated.post" action="/authenticated/post/list" access="isAuthenticated()"/>
 
 		<acme:menu-option code="master.menu.teacher" access="hasRole('Teacher')">
-			<acme:menu-suboption code="master.menu.teacher.favourite-link" action="http://www.example.com/"/>
+			<acme:menu-suboption code="master.menu.teacher.theory-tutorials" action="/teacher/tutorial/list-theory"/>
+			<acme:menu-suboption code="master.menu.teacher.lab-tutorials" action="/teacher/tutorial/list-lab"/>
+			<acme:menu-suboption code="master.menu.teacher.course" action="/teacher/course/list-all"/>
+			<acme:menu-suboption code="master.menu.teacher.helpRequest" action="/teacher/help-request/list"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.learner" access="hasRole('Learner')">
-			<acme:menu-suboption code="master.menu.learner.favourite-link" action="http://www.example.com/"/>
+			<acme:menu-suboption code="master.menu.learner.helpRequest" action="/learner/help-request/list"/>
+			<acme:menu-suboption code="master.menu.learner.dashboard" action="/learner/learner-dashboard/show"/>
 		</acme:menu-option>
 	</acme:menu-left>
 

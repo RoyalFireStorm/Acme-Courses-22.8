@@ -1,5 +1,5 @@
-key,caption,ticker,abstractMessage,link
-course-01,Clase para novatos de ajedrez,NOV-001:EASY,"Clase para novatos, barata y divertida",
-course-02,GM Miguel Santos enseña,MSE-123:HARD,Clase del GM Miguel Santos,
-course-03,Cocina Gourmet Experta,CGE-569,Aprende a hacer platos de estrellas Michellin,https://www.euroinnova.edu.es/cocina-gourmet
-course-04,Cocina for Dummies,DUM-050,"Si no sabes ni hacer un huevo frito, este es tu sitio",
+key,caption,ticker,abstractMessage,link,key:teacher
+course-01,Clase para novatos de ajedrez,NOV-001:EASY,"Clase para novatos, barata y divertida",,teacher-01
+course-02,GM Miguel Santos enseña,MSE-123:HARD,Clase del GM Miguel Santos,,teacher-01
+course-03,Cocina Gourmet Experta,CGE-569,Aprende a hacer platos de estrellas Michellin,https://www.euroinnova.edu.es/cocina-gourmet,teacher-02
+course-04,Cocina for Dummies,DUM-050,"Si no sabes ni hacer un huevo frito, este es tu sitio",,teacher-02

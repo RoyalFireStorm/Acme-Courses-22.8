@@ -15,10 +15,21 @@ master.menu.sign-up = Registrarse
 master.menu.sign-in = Entrar
 master.menu.sign-out = Salir
 
+# master.menu.any #######################################################
+master.menu.any.user-account.list = Cuentas de usuario
+master.menu.any.items=Nuestros Productos
+master.menu.any.lab-tutorial=Tutoriales de Laboratorio
+master.menu.any.theory-tutorial=Tutoriales Teóricos
+master.menu.any.course=Cursos
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-link = 49030430L: Sánchez González, Álvaro
+master.menu.anonymous.blink.list = Listar Guiños
+
+# master.menu.authenticated #######################################################
+
+master.menu.authenticated.post=Publicaciones
 
 # master.menu.administrator ###################################################
 
@@ -33,11 +44,18 @@ master.menu.administrator.shut-down = Parar el sistema
 
 master.menu.teacher = Profesor
 master.menu.teacher.favourite-link = Enlace favorito
+master.menu.teacher.lab-tutorials= Mis Tutoriales de Laboratorio
+master.menu.teacher.theory-tutorials=Mis Tutoriales Teóricos
+master.menu.teacher.course=Mis Cursos
+master.menu.teacher.helpRequest=Peticiones de ayuda
+master.menu.administrator.dashboard=Tablón de Estadísticas
 
 # master.menu.learner ##########################################################
 
 master.menu.learner = Alumno
 master.menu.learner.favourite-link = Enlace favorito
+master.menu.learner.helpRequest=Mis Peticiones de ayuda
+master.menu.learner.dashboard=Tablón de Estadísticas
 
 # master.menu.user-account ####################################################
 
