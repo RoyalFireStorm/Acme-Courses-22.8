@@ -51,6 +51,8 @@ public class Tutorial extends AbstractEntity{
 		@NotNull
 		protected TutorialType		type;
 		
+		@NotNull
+		protected boolean			isPublished;
 		
 
 		// Derived attributes -----------------------------------------------------
