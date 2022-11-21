@@ -63,5 +63,5 @@ master.menu.user-account = Cuenta
 master.menu.user-account.general-data = Datos generales
 master.menu.user-account.teacher = Datos de proveedor
 master.menu.user-account.become-teacher = Hazte profesor
-master.menu.user-account.learner = Datos de consumidor
+master.menu.user-account.learner = Datos de alumno
 master.menu.user-account.become-learner = Hazte alumno
