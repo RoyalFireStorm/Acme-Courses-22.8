@@ -13,3 +13,11 @@ any.blink.label.caption =Título
 any.blink.label.author =Autor
 any.blink.label.message =Mensaje
 any.blink.label.email =Email
+any.blink.label.confirmation =Confirmación
+
+any.blink.button.create=Crear nuevo guiño
+any.blink.form.button.create=Crear
+
+any.blink.error.confirmation= Confirma el nuevo guiño. 
+any.blink.error.soShortCaption=Título demasiado corto. 
+any.blink.error.soShortMessage=Mensaje demasiado corto. 

@@ -1,0 +1,5 @@
+recordIndex,caption,author,message,email,confirmation
+6,Ho, Yo soy yo, Que tal,,true
+8,Que bonito,Luis, Yo,,true
+9,Cuidado!,Investigador,Los ordenadores son malos,investmail.com,true
+10,Cuidado!,Investigador,Los ordenadores son malos,invest@mail.com,false

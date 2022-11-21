@@ -58,6 +58,7 @@ public class Blink extends AbstractEntity {
 
 	@Email
 	protected String			email;
+	
 
 	// Derived attributes -----------------------------------------------------
 
