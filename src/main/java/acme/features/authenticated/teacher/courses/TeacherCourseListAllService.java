@@ -20,7 +20,11 @@ public class TeacherCourseListAllService implements AbstractListService<Teacher,
 	@Override
 	public boolean authorise(final Request<Course> request) {
 		assert request != null;
-		return true;
+		boolean result;
+
+		result = request.getPrincipal().hasRole(Teacher.class);
+
+		return result;
 	}
 
 	@Override
@@ -30,6 +34,7 @@ public class TeacherCourseListAllService implements AbstractListService<Teacher,
 		assert model != null;
 		
 		request.unbind(entity, model,"caption","ticker", "abstractMessage", "link");
+		
 	}
 
 	@Override

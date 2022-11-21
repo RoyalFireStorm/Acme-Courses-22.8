@@ -10,27 +10,25 @@
  * they accept any liabilities with respect to them.
  */
 
-package acme.features.any.courses;
+package acme.features.administrator.post;
 
+import java.time.LocalDate;
 import java.util.Collection;
 
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import acme.entities.course.Course;
+import acme.entities.post.Post;
 import acme.entities.tutorial.Tutorial;
 import acme.framework.repositories.AbstractRepository;
 
 @Repository
-public interface AnyCourseRepository extends AbstractRepository {
+public interface AdministratorPostRepository extends AbstractRepository {
 
-	@Query("select c from Course c where c.isPublished=true")
-	Collection<Course> findAllCourses();
+	@Query(value = "select p from Post p where month(p.moment) >= month(?1) and year(p.moment) >= year(?1) order by p.moment asc")
+	Collection<Post> findLessThanAMonth(LocalDate time);
 	
-	@Query( "select t from Tutorial t where id in (select tc.tutorial.id  from TutorialCourse tc where tc.course.id = :id)" )
-	Collection<Tutorial> findTutorialsInCourse(int id);
-	
-	@Query("select c from Course c where c.id= :id")
-	Course findCourseById(int id);
+	@Query("select p from Post p where p.id= :id")
+	Post findPostById(int id);
 	
 }

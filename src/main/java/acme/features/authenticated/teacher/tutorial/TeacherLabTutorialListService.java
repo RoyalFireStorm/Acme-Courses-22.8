@@ -20,7 +20,11 @@ public class TeacherLabTutorialListService implements AbstractListService<Teache
 	@Override
 	public boolean authorise(final Request<Tutorial> request) {
 		assert request != null;
-		return true;
+		boolean result;
+
+		result = request.getPrincipal().hasRole(Teacher.class);
+
+		return result;
 	}
 
 	@Override

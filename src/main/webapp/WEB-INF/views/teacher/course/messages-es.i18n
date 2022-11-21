@@ -14,4 +14,13 @@ teacher.course.label.cost =Coste
 teacher.course.label.abstractMessage=Mensaje
 teacher.course.label.link=Enlace
 teacher.course.label.type=Tipo
+teacher.course.label.courses=Tutoriales en el Curso
+teacher.course.label.published=Publicado
+
+teacher.course.button.create-new= Crear curso nuevo
+teacher.course.button.create=Crear
+teacher.course.button.update=Modificar
+teacher.course.button.delete=Borrar
 teacher.course.label.tutorials=Tutoriales en el Curso
+
+teacher.course.error.negativeMoney=No puede tener valor negativo

@@ -9,3 +9,6 @@
 	<acme:list-column code="teacher.course.label.abstractMessage" path="abstractMessage" width="20%"/>
 	<acme:list-column code="teacher.course.label.link" path="link" width="20%"/>
 </acme:list>
+
+
+<acme:button code="teacher.course.button.create-new" action="/teacher/course/create"/>

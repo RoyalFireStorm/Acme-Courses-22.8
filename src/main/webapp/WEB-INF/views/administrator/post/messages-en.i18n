@@ -1,0 +1,24 @@
+# i18n_en.messages
+#
+# Copyright (C) 2012-2021 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for administrator particular
+# purposes.  The copyright owner does not offer administrator warranties or representations, nor do
+# they accept administrator liabilities with respect to them.
+
+administrator.post.label.moment =Moment
+administrator.post.label.caption =Caption
+administrator.post.label.informational =Informational
+administrator.post.label.message =Message
+administrator.post.label.link =Link
+administrator.post.label.informational.true=True
+administrator.post.label.informational.false=False
+
+administrator.post.label.confirmation= Confirmation
+administrator.post.form.button.create=Create
+
+administrator.post.error.confirmation= Confirm the new post. 
+administrator.post.error.soShortCaption=Caption too short. 
+administrator.post.error.soShortMessage=Message too short.
