@@ -13,4 +13,13 @@ teacher.course.label.ticker=Ticker
 teacher.course.label.cost =Cost
 teacher.course.label.abstractMessage=Message
 teacher.course.label.link=Link
+teacher.course.label.courses=Tutorials in the Course
+teacher.course.label.published=Published
+
+teacher.course.button.create-new= Create new course
+teacher.course.button.create= Create
+teacher.course.button.update=Update
+teacher.course.button.delete=Delete
 teacher.course.label.tutorials=Tutorials in the Course
+
+teacher.course.error.negativeMoney=Can't have negative value

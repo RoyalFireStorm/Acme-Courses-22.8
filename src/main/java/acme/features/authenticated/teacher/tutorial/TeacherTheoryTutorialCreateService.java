@@ -43,6 +43,7 @@ public class TeacherTheoryTutorialCreateService implements AbstractCreateService
 
 		request.bind(entity, errors, "title","ticker", "abstractMessage","cost", "link", "type", "isPublished");
 		
+		
 	}
 
 	@Override
@@ -52,6 +53,7 @@ public class TeacherTheoryTutorialCreateService implements AbstractCreateService
 		assert model != null;
 
 		request.unbind(entity, model, "title","ticker", "abstractMessage","cost", "link", "type", "isPublished");
+		model.setAttribute("isPublished", entity.isPublished());
 	}
 
 	@Override

@@ -18,10 +18,22 @@ public class TeacherCourseController extends AbstractController<Teacher, Course>
 	@Autowired
 	private TeacherCourseShowService showService;
 	
+	@Autowired
+	private TeacherCourseCreateService createService;
+	
+	@Autowired
+	private TeacherCourseUpdateService updateCourseService;
+	
+	@Autowired
+	private TeacherCourseDeleteService deleteCourseService;
+	
 	@PostConstruct
 	private void initialise() {
 		super.addCommand("list-all","list", this.listAllService);
 		super.addCommand("show", this.showService);
+		super.addCommand("create", this.createService);
+		super.addCommand("update", this.updateCourseService);
+		super.addCommand("delete", this.deleteCourseService);
  
 	}
 	

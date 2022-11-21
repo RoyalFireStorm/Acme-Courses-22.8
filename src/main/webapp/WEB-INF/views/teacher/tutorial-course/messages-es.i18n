@@ -8,12 +8,9 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-teacher.tutorial.label.title =Título
-teacher.tutorial.label.ticker=Código
-teacher.tutorial.label.cost =Coste
-teacher.tutorial.label.abstractMessage=Mensaje
-teacher.tutorial.label.link=Enlace
-teacher.tutorial.label.type=Tipo
+teacher.tutorial.label.duration=Duracion
+teacher.tutorial.label.timeUnit=Unidad de Tiempo
+teacher.tutorial.label.tutorial=Nombre del tutorial
 teacher.tutorial.label.published=Publicado
 
 teacher.tutorial.button.create-lab= Crear tutorial de laboratorio

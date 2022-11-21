@@ -14,7 +14,7 @@
 	
 	<acme:submit test="${command == 'create-theory'}" code="teacher.tutorial.button.create" action="/teacher/tutorial/create-theory"/>
 	<acme:submit test="${command == 'create-lab'}" code="teacher.tutorial.button.create" action="/teacher/tutorial/create-lab"/>
-	<acme:button test="${command == 'show'}" code="teacher.tutorial.button.update" action="/teacher/tutorial/update?id=${id}"/>
-	<acme:submit test="${command == 'update'}" code="teacher.tutorial.button.update" action="/teacher/tutorial/update"/>
-	<acme:submit test="${command == 'show'}" code="teacher.tutorial.button.delete" action="/teacher/tutorial/delete?id=${id}"/>
+	<acme:button test="${command == 'show' && isPublished eq false}" code="teacher.tutorial.button.update" action="/teacher/tutorial/update?id=${id}"/>
+	<acme:submit test="${command == 'update' && isPublished eq false}" code="teacher.tutorial.button.update" action="/teacher/tutorial/update"/>
+	<acme:submit test="${command == 'show' && isPublished eq false}" code="teacher.tutorial.button.delete" action="/teacher/tutorial/delete?id=${id}"/>
 </acme:form>
