@@ -34,6 +34,7 @@ public class LearnerHelpRequestShowService implements AbstractShowService<Learne
 		assert entity != null;
 		assert model != null;
 		
+		
 		request.unbind(entity, model, "status","ticker", "statement","budget","startDate","finishDate", "link");
 	}
 

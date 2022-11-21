@@ -11,4 +11,6 @@
 	<acme:input-moment code="learner.help-request.label.startDate" path="startDate" readonly="true"/>
 	<acme:input-moment code="learner.help-request.label.finishDate" path="finishDate" readonly="true"/>
 	<acme:input-url code="learner.help-request.label.link" path="link" readonly="true"/>
+	
+	<acme:button code="learner.help-request.label.followUp" action="/learner/follow-up/list?id=${id}"/>
 </acme:form>
