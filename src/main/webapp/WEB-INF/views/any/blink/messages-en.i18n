@@ -13,3 +13,11 @@ any.blink.label.caption =Caption
 any.blink.label.author =Author
 any.blink.label.message =Message
 any.blink.label.email =Email
+any.blink.label.confirmation =Confirmation
+
+any.blink.button.create=Create New Blink
+any.blink.form.button.create=Create
+
+any.blink.error.confirmation= Confirm the new Blink. 
+any.blink.error.soShortCaption=Caption too short. 
+any.blink.error.soShortMessage=Message too short.

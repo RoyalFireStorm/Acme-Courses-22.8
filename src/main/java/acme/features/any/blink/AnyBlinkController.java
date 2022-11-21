@@ -15,9 +15,13 @@ public class AnyBlinkController extends AbstractController<Any, Blink>{
 	@Autowired
 	private AnyBlinkListService listService;
 	
+	@Autowired
+	private AnyBlinkCreateService createService;
+	
 	@PostConstruct
 	private void initialise() {
 		super.addCommand("list", this.listService);
+		super.addCommand("create", this.createService);
  
 	}
 	
