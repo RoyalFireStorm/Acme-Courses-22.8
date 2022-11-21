@@ -16,3 +16,6 @@ teacher.help-request.label.link=Enlace
 teacher.help-request.label.startDate=Fecha de Inicio
 teacher.help-request.label.finishDate=Fecha de Fin
 teacher.help-request.label.followUp=Seguimientos
+teacher.help-request.label.status.PROPOSED=Propuesto
+teacher.help-request.label.status.ACCEPTED=Aceptado
+teacher.help-request.label.status.DENIED=Denegado
