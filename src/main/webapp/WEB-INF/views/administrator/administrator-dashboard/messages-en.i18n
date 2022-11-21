@@ -1,0 +1,37 @@
+# messages-en.i18n
+#
+# Copyright (C) 2012-2022 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.administrator-dashboard.form.label.Title =Dashboard
+administrator.administrator-dashboard.form.label.totalNumberTheoryTutorials =Number of Theory Tutorials
+administrator.administrator-dashboard.form.label.totalNumberLabTutorials=Number of Lab Tutorials
+administrator.administrator-dashboard.form.label.totalNumberOfProposedHelpRequests=Number of Proposed Help Requests
+administrator.administrator-dashboard.form.label.totalNumberOfAcceptedHelpRequests=Number of Accepted Help Requests
+administrator.administrator-dashboard.form.label.totalNumberOfDeniedHelpRequests=Number of Denied Help Requests
+
+administrator.administrator-dashboard.form.label.TheoryTutorialTitle=Theory Tutorials Statistics 
+administrator.administrator-dashboard.form.label.averageTheoryTutorial=Cost Average by 
+administrator.administrator-dashboard.form.label.deviationTheoryTutorial=Cost Deviation by 
+administrator.administrator-dashboard.form.label.minTheoryTutorial=Cost Minimum by 
+administrator.administrator-dashboard.form.label.maxTheoryTutorial=Cost Maximum by 
+
+administrator.administrator-dashboard.form.label.LabTutorialTitle=Lab Tutorials Statistics
+administrator.administrator-dashboard.form.label.averageLabTutorial=Cost Average by 
+administrator.administrator-dashboard.form.label.deviationLabTutorial=Cost Deviation by 
+administrator.administrator-dashboard.form.label.minLabTutorial=Cost Minimum by 
+administrator.administrator-dashboard.form.label.maxLabTutorial=Cost Maximum by 
+
+administrator.administrator-dashboard.form.label.HelpRequestTitle=Help Requests Budget Statistics
+administrator.administrator-dashboard.form.label.averageHelpRequest=Average budget by status 
+administrator.administrator-dashboard.form.label.deviationHelpRequest=Deviation budget by status 
+administrator.administrator-dashboard.form.label.minHelpRequest=Minimum budget by status 
+administrator.administrator-dashboard.form.label.maxHelpRequest=Maximum budget by status 
+
+administrator.administrator-dashboard.form.label.noMetric=There are any metrics about this statistic.
+administrator.administrator-dashboard.form.label.colon=:

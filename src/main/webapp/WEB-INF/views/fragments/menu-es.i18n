@@ -48,6 +48,7 @@ master.menu.teacher.lab-tutorials= Mis Tutoriales de Laboratorio
 master.menu.teacher.theory-tutorials=Mis Tutoriales Teóricos
 master.menu.teacher.course=Mis Cursos
 master.menu.teacher.helpRequest=Peticiones de ayuda
+master.menu.administrator.dashboard=Tablón de Estadísticas
 
 # master.menu.learner ##########################################################
 
