@@ -30,6 +30,8 @@ public class TeacherLabTutorialListService implements AbstractListService<Teache
 		assert model != null;
 		
 		request.unbind(entity, model, "title","ticker", "abstractMessage","cost", "link", "type");
+		model.setAttribute("theory", false);
+		model.setAttribute("lab", true);
 	}
 
 	@Override

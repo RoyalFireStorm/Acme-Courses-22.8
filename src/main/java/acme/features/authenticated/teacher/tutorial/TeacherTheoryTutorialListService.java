@@ -20,7 +20,11 @@ public class TeacherTheoryTutorialListService implements AbstractListService<Tea
 	@Override
 	public boolean authorise(final Request<Tutorial> request) {
 		assert request != null;
-		return true;
+		boolean result;
+
+		result = request.getPrincipal().hasRole(Teacher.class);
+
+		return result;
 	}
 
 	@Override
@@ -30,6 +34,8 @@ public class TeacherTheoryTutorialListService implements AbstractListService<Tea
 		assert model != null;
 		
 		request.unbind(entity, model,"title","ticker","abstractMessage","cost", "link","type");
+		model.setAttribute("theory", true);
+		model.setAttribute("lab", false);
 	}
 
 	@Override

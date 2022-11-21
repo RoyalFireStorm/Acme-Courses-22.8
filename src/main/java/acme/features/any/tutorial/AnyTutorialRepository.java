@@ -23,10 +23,10 @@ import acme.framework.repositories.AbstractRepository;
 @Repository
 public interface AnyTutorialRepository extends AbstractRepository {
 
-	@Query( "select t from Tutorial t where t.type = acme.entities.tutorial.TutorialType.THEORY" )
+	@Query( "select t from Tutorial t where t.type = acme.entities.tutorial.TutorialType.THEORY and t.isPublished=true" )
 	Collection<Tutorial> findTheoryTutorials();
 	
-	@Query( "select t from Tutorial t where t.type = acme.entities.tutorial.TutorialType.LAB" )
+	@Query( "select t from Tutorial t where t.type = acme.entities.tutorial.TutorialType.LAB and t.isPublished=true" )
 	Collection<Tutorial> findLabTutorials();
 	
 	@Query("select t from Tutorial t where t.id= :id")

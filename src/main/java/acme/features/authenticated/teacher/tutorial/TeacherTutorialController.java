@@ -21,12 +21,28 @@ public class TeacherTutorialController extends AbstractController<Teacher, Tutor
 	@Autowired
 	private TeacherTutorialShowService showService;
 	
+	@Autowired
+	private TeacherTheoryTutorialCreateService createTheoryService;
+	
+	@Autowired
+	private TeacherLabTutorialCreateService createLabService;
+	
+	@Autowired
+	private TeacherTutorialUpdateService updateTutorialService;
+	
+	@Autowired
+	private TeacherTutorialDeleteService deleteTutorialService;
+	
 	
 	@PostConstruct
 	private void initialise() {
 		super.addCommand("list-theory","list", this.theorylistService);
 		super.addCommand("list-lab","list", this.lablistService);
 		super.addCommand("show", this.showService);
+		super.addCommand("create-theory","create", this.createTheoryService);
+		super.addCommand("create-lab","create", this.createLabService);
+		super.addCommand("update", this.updateTutorialService);
+		super.addCommand("delete", this.deleteTutorialService);
  
 	}
 	

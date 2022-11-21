@@ -14,3 +14,12 @@ teacher.tutorial.label.cost =Coste
 teacher.tutorial.label.abstractMessage=Mensaje
 teacher.tutorial.label.link=Enlace
 teacher.tutorial.label.type=Tipo
+teacher.tutorial.label.published=Publicado
+
+teacher.tutorial.button.create-lab= Crear tutorial de laboratorio
+teacher.tutorial.button.create-theory=Crear tutorial teórico
+teacher.tutorial.button.create=Crear
+teacher.tutorial.button.update=Modificar
+teacher.tutorial.button.delete=Borrar
+
+any.tutorial.error.negativeMoney=No puede tener valor negativo

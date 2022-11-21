@@ -13,3 +13,4 @@ authenticated.learner.form.label.statement = Statement
 
 authenticated.learner.form.button.create = Register
 authenticated.learner.form.button.update = Update
+
