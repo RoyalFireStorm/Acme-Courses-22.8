@@ -11,4 +11,6 @@
 	<acme:input-moment code="teacher.help-request.label.startDate" path="startDate" readonly="true"/>
 	<acme:input-moment code="teacher.help-request.label.finishDate" path="finishDate" readonly="true"/>
 	<acme:input-url code="teacher.help-request.label.link" path="link" readonly="true"/>
+	
+	<acme:button code="teacher.help-request.label.followUp" action="/teacher/follow-up/list?id=${id}"/>
 </acme:form>

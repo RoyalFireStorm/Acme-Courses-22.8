@@ -8,11 +8,7 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-teacher.help-request.label.status =Estado
-teacher.help-request.label.ticker=Código
-teacher.help-request.label.statement=Declaración
-teacher.help-request.label.budget=Presupuesto
-teacher.help-request.label.link=Enlace
-teacher.help-request.label.startDate=Fecha de Inicio
-teacher.help-request.label.finishDate=Fecha de Fin
-teacher.help-request.label.followUp=Seguimientos
+teacher.follow-up.label.sequenceNumber =Número de Secuencia
+teacher.follow-up.label.moment=Momento
+teacher.follow-up.label.message=Mensaje
+teacher.follow-up.label.link=Enlace
