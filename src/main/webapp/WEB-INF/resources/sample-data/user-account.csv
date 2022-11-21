@@ -3,3 +3,5 @@ user-account-learner-01,true,"UserIdentity{name: 'Jim', surname: 'Smith', email:
 user-account-learner-02,true,"UserIdentity{name: 'Sara', surname: 'Lona', email: 'learner02@acme.com'}",learner02,learner02
 user-account-teacher-01,true,"UserIdentity{name: 'Marine', surname: 'LeMont', email: 'teacher01@acme.com'}",teacher01,teacher01
 user-account-teacher-02,true,"UserIdentity{name: 'Saul', surname: 'Oconner', email: 'teacher02@acme.com'}",teacher02,teacher02
+user-account-learner-03,false,"UserIdentity{name: 'Qimera', surname: 'Lona', email: 'learner03@acme.com'}",learner03,learner03
+user-account-teacher-03,false,"UserIdentity{name: 'Tras', surname: 'Martin', email: 'teacher03@acme.com'}",teacher03,teacher03

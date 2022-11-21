@@ -1,0 +1,12 @@
+recordIndex,recordIndexTutorial,title,ticker,abstractMessage,cost,link,type
+1,2,Macarrones con tomate,TMT-101,Que no se te queme el tomate,GBP 5.50,https://www.recetasdeescandalo.com/macarrones-con-tomate-casero-receta-muy-sabrosa-y-sencilla/,THEORY
+3,1,Mate con Caballo y Alfil,MCA-659,"Cuidado, clase avanzada",EUR 25.00,,THEORY
+2,1,Como aprovechar el caviar,CAV-112:EXPERTO,"Mejora tus platos con este plato gourmet",EUR 123.99,,THEORY
+1,0,Atun encebollado,ATU-111,"Rico plato que no pasas de moda",USD 17.99,,THEORY
+0,1,Fried liver attack,FLA-055,Easy attack to win the rook!,USD 5.00,https://www.youtube.com/watch?v=0ITi9Jc0J-o,THEORY
+0,0,Apertura Inglesa En Vivo,ING-001:BLANCAS,Clase presencial clasica,GBP 20.00,,LAB
+1,1,Experto en Barbacoa,BBQ-101,¡Sé el rey de las fiesta!,GBP 25.50,https://www.modregohogar.com/blog/tipos-de-barbacoa,LAB
+3,0,Analísis de Carlsen-Nakamura,MMM-659:RAPID,Analisis de la partida con Rey Dama,EUR 5.00,,LAB
+2,0,Cocina Gourmet,CAV-111:EXPERTO,Clase avanzada de la mano de Jordi Cruz,EUR 99.99,,LAB
+1,3,Pasteleria: Donuts,PAS-171:PAZ,Clase de Paz de las 7:30,USD 17.99,,LAB
+0,2,Puzzle Rush,RSH-055,Puzzle Rush!,USD 4.70,https://www.chess.com/es/puzzles/rush,LAB

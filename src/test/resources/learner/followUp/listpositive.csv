@@ -1,0 +1,9 @@
+account,recordIndex,recordIndex2,sequenceNumber,moment,message,link
+learner01,2,0,ABC-123:0001,2021/01/01 12:12,I need to stay in a hotel,
+learner02,2,0,CHA-999:DANIEL:0001,2022/01/05 10:00,Tengo carbon,
+learner02,0,0,KLJ-012:0001,2022/06/06 06:30,Solo puedo comer productos frescos,
+learner02,0,1,KLJ-012:0002,2022/06/08 06:30,"Si, los puedes ver en este link",https://www.carrefour.es/supermercado/productos-frescos/cat20002/c
+learner01,0,0,KAS-201:0001,2022/02/03 16:00,The match is at 12:00!,
+learner01,0,1,KAS-201:0002,2022/02/04 11:00,Where is everybody?,
+learner01,0,2,KAS-201:0003,2022/02/04 11:30,We are arriving!,
+learner01,1,0,ASD-120:A:0001,2022/02/04 11:00,Will you come to the match?,
