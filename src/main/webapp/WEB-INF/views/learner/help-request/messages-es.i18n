@@ -16,3 +16,6 @@ learner.help-request.label.link=Enlace
 learner.help-request.label.startDate=Fecha de Inicio
 learner.help-request.label.finishDate=Fecha de Fin
 learner.help-request.label.followUp=Seguimientos
+learner.help-request.label.status.PROPOSED=Propuesto
+learner.help-request.label.status.ACCEPTED=Aceptado
+learner.help-request.label.status.DENIED=Denegado

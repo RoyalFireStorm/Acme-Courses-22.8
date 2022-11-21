@@ -14,3 +14,5 @@ any.tutorial.label.cost =Cost
 any.tutorial.label.abstractMessage=Message
 any.tutorial.label.link=Link
 any.tutorial.label.type=Type
+any.tutorial.label.type.THEORY=Theory
+any.tutorial.label.type.LAB=Lab

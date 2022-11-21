@@ -13,3 +13,5 @@ any.post.label.caption =Caption
 any.post.label.informational =Informational
 any.post.label.message =Message
 any.post.label.link =Link
+any.post.label.informational.true=True
+any.post.label.informational.false=False
