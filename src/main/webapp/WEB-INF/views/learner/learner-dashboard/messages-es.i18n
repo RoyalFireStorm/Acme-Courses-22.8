@@ -1,0 +1,28 @@
+# i18n-es.i18n
+#
+# Copyright (C) 2012-2022 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+learner.learner-dashboard.form.label.status = y estado
+learner.learner-dashboard.form.label.colon =:
+
+learner.learner-dashboard.form.label.average = Presupuesto medio del presupuesto por divisa 
+learner.learner-dashboard.form.label.deviation = Desviación típica del presupuesto por divisa 
+learner.learner-dashboard.form.label.max = Presupuesto máximo por divisa
+learner.learner-dashboard.form.label.min = Presupuesto mínimo por divisa
+
+learner.learner-dashboard.form.label.avgTitle = Información de las medias aritméticas, por divisa y estado.
+learner.learner-dashboard.form.label.deviationTitle= Información de las desviaciones típicas, por divisa y estado.
+learner.learner-dashboard.form.label.maxTitle= Información de los máximos, por divisa y estado.
+learner.learner-dashboard.form.label.minTitle= Información de los mínimas, por divisa y estado.
+learner.learner-dashboard.form.label.absoluteTitle = Métricas totales
+learner.learner-dashboard.form.label.noMetric =	 No hay platos para calcular métricas.
+
+learner.learner-dashboard.form.label.totalNumberOfProposedHelpRequests = Total de peticiones de ayuda en propuesta:
+learner.learner-dashboard.form.label.totalNumberOfAcceptedHelpRequests = Total de peticiones de ayuda aceptados:
+learner.learner-dashboard.form.label.totalNumberOfDeniedHelpRequests = Total de peticiones de ayuda rechazados:
