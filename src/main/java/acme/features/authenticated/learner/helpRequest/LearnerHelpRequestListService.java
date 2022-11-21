@@ -1,4 +1,4 @@
-package acme.features.learner.helpRequest;
+package acme.features.authenticated.learner.helpRequest;
 
 import java.util.Collection;
 

@@ -1,4 +1,4 @@
-package acme.features.teacher.helpRequest;
+package acme.features.authenticated.teacher.helpRequest;
 
 import java.util.Collection;
 

@@ -1,4 +1,4 @@
-package acme.features.learner.helpRequest;
+package acme.features.authenticated.learner.helpRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

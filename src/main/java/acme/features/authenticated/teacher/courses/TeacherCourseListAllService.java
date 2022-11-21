@@ -1,4 +1,4 @@
-package acme.features.teacher.courses;
+package acme.features.authenticated.teacher.courses;
 
 import java.util.Collection;
 

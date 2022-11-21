@@ -1,4 +1,4 @@
-package acme.features.teacher.followUp;
+package acme.features.authenticated.teacher.followUp;
 
 import java.util.Collection;
 

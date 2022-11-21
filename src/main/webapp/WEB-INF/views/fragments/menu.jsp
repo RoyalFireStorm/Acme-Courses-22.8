@@ -48,6 +48,7 @@
 
 		<acme:menu-option code="master.menu.learner" access="hasRole('Learner')">
 			<acme:menu-suboption code="master.menu.learner.helpRequest" action="/learner/help-request/list"/>
+			<acme:menu-suboption code="master.menu.learner.dashboard" action="/learner/learner-dashboard/show"/>
 		</acme:menu-option>
 	</acme:menu-left>
 

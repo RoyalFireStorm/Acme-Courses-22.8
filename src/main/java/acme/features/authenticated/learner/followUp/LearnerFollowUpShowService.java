@@ -1,4 +1,4 @@
-package acme.features.learner.followUp;
+package acme.features.authenticated.learner.followUp;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

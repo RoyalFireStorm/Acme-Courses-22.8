@@ -10,7 +10,7 @@
  * they accept any liabilities with respect to them.
  */
 
-package acme.features.learner.followUp;
+package acme.features.authenticated.learner.followUp;
 
 import java.util.Collection;
 

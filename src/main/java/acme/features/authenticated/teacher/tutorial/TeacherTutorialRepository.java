@@ -10,7 +10,7 @@
  * they accept Teacher liabilities with respect to them.
  */
 
-package acme.features.teacher.tutorial;
+package acme.features.authenticated.teacher.tutorial;
 
 import java.util.Collection;
 

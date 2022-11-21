@@ -10,7 +10,7 @@
  * they accept any liabilities with respect to them.
  */
 
-package acme.features.teacher.helpRequest;
+package acme.features.authenticated.teacher.helpRequest;
 
 import java.util.Collection;
 

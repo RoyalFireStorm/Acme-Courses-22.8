@@ -10,45 +10,42 @@
  * they accept any liabilities with respect to them.
  */
 
-package acme.testing.learner.followUp;
+package acme.testing.learner.dashboard;
+
+import java.util.List;
 
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
 import acme.testing.TestHarness;
 
 
-public class LearnerFollowUpShowTest extends TestHarness {
+public class LearnerDashboardShowTest extends TestHarness {
 	
 	// Lifecycle management ---------------------------------------------------
 	
 	// Test cases -------------------------------------------------------------
 
 	@ParameterizedTest
-	@CsvFileSource(resources="/learner/followUp/showpositive.csv", encoding="utf-8", numLinesToSkip = 1)
+	@CsvFileSource(resources="/learner/learner-dashboard/showpositive.csv", encoding="utf-8", numLinesToSkip = 1)
 	@Order(10)
-	public void LearnerFollowUpShowPositiveTest (final String account, final int recordIndex, final int recordIndex2, final String sequenceNumber, final String moment,
-		final String message, final String link) {
+	public void LearnerDashboardShowPositiveTest (final int recordIndex, final String number) {
 		
 		super.navigateHome();
-		super.signIn(account, account);
-		super.clickOnMenu("Learner","My Help Requests");	
-		super.checkListingExists();
-		super.sortListing(0, "asc");
+		super.signIn("learner01", "learner01");
+		super.clickOnMenu("Learner","Dashboard");	
 		
-		super.clickOnListingRecord(recordIndex);
-		super.checkFormExists();
-		super.clickOnButton("Follow Ups");
-		super.checkListingExists();
-		super.sortListing(0, "asc");
-		super.clickOnListingRecord(recordIndex2);
-		super.checkFormExists();
-		super.checkInputBoxHasValue("sequenceNumber", sequenceNumber);
-		super.checkInputBoxHasValue("moment", moment);
-		super.checkInputBoxHasValue("message", message);
-		super.checkInputBoxHasValue("link", link);
+		By locatorDuty;
+		String stringDuty;
+		List<WebElement> elementDuty;
+		locatorDuty = By.xpath("//td");
+		elementDuty = super.getDriver().locateMany(locatorDuty);
+		stringDuty = elementDuty.get(recordIndex).getText();
 		
+		assert stringDuty.equals(number);
 		super.signOut();
 		
 

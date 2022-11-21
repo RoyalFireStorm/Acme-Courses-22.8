@@ -1,4 +1,4 @@
-package acme.features.learner.followUp;
+package acme.features.authenticated.learner.followUp;
 
 import javax.annotation.PostConstruct;
 

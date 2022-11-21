@@ -1,4 +1,4 @@
-package acme.features.teacher.tutorial;
+package acme.features.authenticated.teacher.tutorial;
 
 import javax.annotation.PostConstruct;
 

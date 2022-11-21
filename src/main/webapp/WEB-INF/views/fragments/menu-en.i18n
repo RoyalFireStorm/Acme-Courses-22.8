@@ -52,6 +52,7 @@ master.menu.teacher.helpRequest=Help Requests
 
 master.menu.learner = Learner
 master.menu.learner.helpRequest=My Help Requests
+master.menu.learner.dashboard=Dashboard
 
 
 # master.menu.user-account ####################################################

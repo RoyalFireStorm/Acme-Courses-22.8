@@ -54,6 +54,7 @@ master.menu.teacher.helpRequest=Peticiones de ayuda
 master.menu.learner = Alumno
 master.menu.learner.favourite-link = Enlace favorito
 master.menu.learner.helpRequest=Mis Peticiones de ayuda
+master.menu.learner.dashboard=Tablón de Estadísticas
 
 # master.menu.user-account ####################################################
 
